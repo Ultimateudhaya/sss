@@ -31,7 +31,7 @@ function check_c_Code()
 
 function check_python_Code()
 {
-    const p_ans = "1 2 3 4 5"
+    const p_ans = "1 2 3 4"
     const opt = document.getElementById("p_output").value;
     if(opt === p_ans)
     {
