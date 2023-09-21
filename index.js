@@ -1,7 +1,7 @@
 
 function check_c_Code()
 {
-    const c_ans = "1 2 3 4 5"
+    const c_ans = "3"
     const opt = document.getElementById("c_output").value;
     if(opt === c_ans)
     {
@@ -31,11 +31,7 @@ function check_c_Code()
 
 function check_python_Code()
 {
-    const p_ans = `         *
-       * * *
-     * * * * *
-   * * * * * * *
- * * * * * * * * *`
+    const p_ans ="Minimum Window Substring:BANC"
     const opt = document.getElementById("p_output").value;
     if(opt === p_ans)
     {
