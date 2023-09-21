@@ -1,8 +1,7 @@
 
 function check_c_Code()
 {
-    const c_ans = `Sorted array:
-    11 12 22 25 34 64 90`
+    const c_ans = "Sorted array:11 12 22 25 34 64 90"
     const opt = document.getElementById("c_output").value;
     if(opt === c_ans)
     {
