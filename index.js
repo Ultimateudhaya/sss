@@ -1,6 +1,7 @@
 function check_c_Code()
 {
-    const c_ans = "1 2 3 4 5"
+    const c_ans = `Sorted array: 
+11 12 22 25 34 64 90`
     const opt = document.getElementById("c_output").value;
     if(opt === c_ans)
     {
@@ -30,7 +31,7 @@ function check_c_Code()
 
 function check_python_Code()
 {
-    const p_ans = "1 2 3 4 5"
+    const p_ans = "Minimum Window Substring : BANC"
     const opt = document.getElementById("p_output").value;
     if(opt === p_ans)
     {
